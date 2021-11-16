@@ -4,8 +4,7 @@ project(markow_chains VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(markow_chains 
-                src/main.cpp
+add_library(markow_chains 
                 lib/markow_chains.cpp
                 lib/markow_chains.h)
 
